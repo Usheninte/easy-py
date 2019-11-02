@@ -1,6 +1,6 @@
 # easy-py
 
-> Homework Assignment #1: Variable
+> Homework Assignment #1: Variables
   
    - [file](./00-variables/main.py)  
    - [video](https://youtu.be/FtjX9egYl1I)  
