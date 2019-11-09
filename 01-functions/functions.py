@@ -3,8 +3,11 @@ def songWriters():
     print("Song Writers >>")
     print(writer1)
     print(writer2)
+
+
 # Function call
 songWriters()
+
 
 def musicLabels():
     musicLabel1, musicLabel2, musicLabel3 = "Top Dawg", "Aftermath", "Interscope"
@@ -12,8 +15,11 @@ def musicLabels():
     print(musicLabel1)
     print(musicLabel2)
     print(musicLabel3)
+
+
 # Function call
 musicLabels()
+
 
 def releaseHistory():
     firstReleaseWorldwide = "March 30, 2017"
@@ -21,5 +27,17 @@ def releaseHistory():
     print("Release History >>")
     print(firstReleaseWorldwide)
     print(firstReleaseUSA)
+
+
 # Function call
 releaseHistory()
+
+
+def certifiedPlatinum():
+    print("Certified Platinum >>")
+    return True
+
+
+# Save function to variable
+plat = certifiedPlatinum()
+print(plat)
