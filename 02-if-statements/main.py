@@ -8,6 +8,7 @@ def equality_check(a, b, c):
 
 
 # Display equality results
-print(equality_check(1, 2, "1"))
-print(equality_check(5, "6", "6"))
-print(equality_check("77", 4, 77))
+print(equality_check(1, 2, "1"))  # True
+print(equality_check(5, "6", "6"))  # True
+print(equality_check("77", 4, 77))  # True
+print(equality_check(3, 4, 5))  # False
